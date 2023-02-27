@@ -1,5 +1,5 @@
 table, tr, td, th {
-	border: 1px solid;
+ border: 1px solid;
  border-collapse: collapse;
   }
 h1 {
@@ -8,7 +8,8 @@ h1 {
  margin-right: auto;
   }
 body {
- width: 56em;
+ max-width: 1280px; /*Trying to set max size of content*/
+ max-height: 720px;
  margin-left:auto;
  margin-right:auto;
  margin-bottom: auto;
@@ -16,9 +17,10 @@ body {
   }
 .pictureframe  {
  background-color: black;
+ max-height: 0.282em; /*203/720*/
+ max-width: 0.162em; /*207/1280*/
   }
 .planetssrc  {
  max-height: 200px;
- height
  max-width: 205px;
   }
