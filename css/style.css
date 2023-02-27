@@ -26,16 +26,20 @@ body {
  max-height: 100%;
  width: 1280px;
  height: 720px;
- margin-left:25%;
- margin-right:25%;
+ margin-left:auto;
+ margin-right:auto;
  margin-bottom: 50%;
  margin-top: auto;
   }
+table {
+ margin-left: 25%;
+ margin-right: 25%;
+  }
 .alt1 {
- background: #b8bab9
+ background: #b8bab9;
   }
 .alt2 {
- background: #e1e3e2
+ background: #e1e3e2;
   }
 .pictureframe  {
  background-color: black;
