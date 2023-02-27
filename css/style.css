@@ -7,9 +7,14 @@ td, body{
  font-size: 11px;
  font-style: normal;
  font-variant: normal;
- font-weight: 700;
  line-height: 23px; 
  text-align: center;
+  }
+em {
+ font-style: italic;
+  }
+strong {
+ font-weight: bold;
   }
 h1 {
  width: 9em;
