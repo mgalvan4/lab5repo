@@ -2,38 +2,53 @@ table, tr, td, th {
  border: 1px solid;
  border-collapse: collapse;
   }
-td, body{
+td, body {
  font-family: Georgia, Times, "Times New Roman", serif;
  font-size: 11px;
  font-style: normal;
  font-variant: normal;
- line-height: 10px; 
+ line-height: 20px; 
  text-align: center;
+  }
+th {
+ background-color: #d5a9f7; 
+  }
+.column1{
+ border-left:solid 2px black;
+ border-right: thick double purple;
+ border-top: solid black 1px;
+ border-bottom:dashed black 2px;
+ background-color: lightyellow;
+ width: 10%;
+  }
+#row7header {
+ border-bottom:solid; 
   }
 em {
  font-style: italic;
+ font-size: 8px;
   }
 strong {
  font-weight: bold;
+ font-size: 8px;
   }
 h1 {
- width: 9em;
+ width: 50%;
+ height:10%;
  margin-left: auto;
  margin-right: auto;
   }
 body {
- max-width:  100%; /*Trying to set max size of content*/
- max-height: 100%;
- width: 1280px;
- height: 720px;
- margin-left:auto;
- margin-right:auto;
- margin-bottom: 50%;
- margin-top: auto;
+ box-sizing: border-box;
+ height: 800px;
+ width: 100%;
   }
 table {
- margin-left: 25%;
- margin-right: 25%;
+ box-sizing: content-box;
+ height:90%;
+ width: 80%;
+ margin-left:10%;
+ margin-right:10%;
   }
 .alt1 {
  background: #b8bab9;
@@ -41,12 +56,14 @@ table {
 .alt2 {
  background: #e1e3e2;
   }
-.pictureframe  {
+.pictureframe {
  background-color: black;
- max-height: 0.282em; /*203/720*/
- max-width: 0.162em; /*207/1280*/
   }
-.planetssrc  {
- max-height: .99em; /*200/203*/
- max-width: .99em; /*205/207*/
+.planetssrc {
+ max-height: 20%; /*200/203*/
+ max-width: 25%
   }
+#emptybox{
+  border-bottom: hidden;
+  border-top: solid 1px black;
+}
